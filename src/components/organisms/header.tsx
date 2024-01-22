@@ -4,13 +4,13 @@ import Button from "../atoms/button/button";
 export default function Header() {
   return (
     <header className="grid grid-cols-2 gap-3 mt-20">
-      <div className=" space-y-8">
-        <h1 className="font-bold text-5xl text-teal-950">
-          Tour your dream destination with tourve
+      <div className="space-y-8 text-center">
+        <h1 className="font-bold text-5xl text-teal-950 text-center ">
+          Tour your dream <br /> destination with <br /> tourve
         </h1>
-        <p className="font-medium text-neutral-400 w-[80%]">
-          Plan and book your perfect trip with expert advice, travel tips,
-          destination information and inspiration from us .
+        <p className="font-medium text-neutral-400 ">
+          Plan and book your perfect trip with expert <br /> advice, travel
+          tips, destination information and <br /> inspiration from us .
         </p>
         <Button variant="outlined">Discover Now</Button>
       </div>

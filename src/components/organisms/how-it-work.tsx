@@ -13,7 +13,7 @@ export default function HowItWork() {
           once a month
         </p>
       </div>
-      <div className="flex-1 flex items-center justify-between translate-y-3">
+      <div className="flex items-center justify-between translate-y-3">
         <HIW
           image="/images/how-it-works/hiw-1.png"
           description="Employees set their per paycheck contribution"
