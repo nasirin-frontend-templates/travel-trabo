@@ -31,7 +31,7 @@ export default function Button({
   };
 
   return (
-    <button {...props} className={cn(sizes, variants)}>
+    <button {...props} className={cn(sizes, variants, props.className)}>
       {children}
     </button>
   );
